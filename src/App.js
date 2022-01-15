@@ -17,7 +17,7 @@ function App() {
     console.log(newData);                       //synchonous call, as getData() is 'async' and we do 'await fetch()'
     setReturnedData(newData.result);            //using the state variable setter
   }
-  //getData('/api');                              //call fetch, called a lot when render, remove it
+  //getData('/api');                            //call fetch, called a lot when render, remove it
 
   return (
     <div className="App">
